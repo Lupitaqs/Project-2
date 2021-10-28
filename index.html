@@ -1,0 +1,55 @@
+<! doctype html>
+<html lang="en">
+    <head>
+        <!-- GENERAL INFO-->
+        <title>Booki</title>
+        <meta charset="utf-8">
+        <!-- LINKS TO CSS FILES ("STYLESHEET")-->
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="css/normalize.css" type="text/css" rel="stylesheet">
+        <link href="assets/css/all.css" rel="stylesheet"> <!--FontAwesome-->
+        <!-- FONTS -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+        </style> 
+        <!--MEDIA QUERIES-----992px COMPUTERS-----768px TABLETS-----BELOW 768px MOBILES-->
+        <link href="css/mediaqueries.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo/Booki.png"></a>
+                <div class="nav-links">
+                        <div><a href="#">Accommodations</a></div>
+                        <div><a href="#">Activities</a></div>
+                </div>
+            </nav>
+        </section>
+
+        <main>
+            <h3><strong>Find a place for your dream vacation</strong></h3>
+            <p id="p1">Downtown or in a nature</p>
+            <nav class="search-bar">
+                    <form>
+                        <span id="loc-icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <input type="text" placeholder="Search..">
+                        <button class ="button-search" type="button">Search</button>
+                        <button class ="button-icon" type="submit"><i class="fas fa-search"></i></button>
+                    </form>       
+             </nav>
+             <div class="filters-container">
+                <div id="filters">Filters</div>
+                <div class="lowcost"><a href="#"><span class="icon-filter" id="lc-icon"><i class="fas fa-money-bill-wave"></i></span>Low cost</a></div>
+                <div class="famfriendly"><a href="#"><span class="icon-filter" id="ff-icon"><i class="fas fa-child"></i></span>Family-friendly</a></div>
+                <div class="romantic"><a href="#"><span class="icon-filter" id="r-icon"><i class="fas fa-heart"></i></span>Romantic</a></div>
+                <div class="petsallowed"><a href="#"><span class="icon-filter" id="p-icon"><i class="fas fa-dog"></i></span>Pets allowed</a></div>
+             </div> 
+             <div class="info-container">
+                <span id="info-icon"><i class="fas fa-info"></span></i>
+                <p id="info">More than 500 accomadations are available in this city</p>
+            </div>
+        </main>
+
+    </body>
+</html>
